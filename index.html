@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Mi primera web</title>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <!--Este es un comentario y no va a aparecer en la pagina web-->
+        <h1>QUIERO SER PROGRAMADOR!!!!!!!!</h1>
+        <hr>
+    </header>
+    <section>
+        <!--Este es el inicio de la etiqueta section, pero tampoco se va a ver porque es otro-->
+        <article>
+            <h2 id="inicio">Este es subtitulo</h2>
+            <p>Este es un parrafo y sera un <span style="color: blue;">poco extenso</span> para <br> mostar la etiqueta
+                span</p>
+        </article>
+    </section>
+    <img src="assets/programador.jpg" width="300px">
+
+    <form>
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Ingrese Nombre"><br><br>
+
+        <label for="apellido">Apellido</label>
+        <input type="text" id="apellido" name="apellido" placeholder="Ingrese Apellido"><br><br>
+
+        <label for="edad">Edad</label>
+        <input type="number" id="edad" name="edad" placeholder="Ingrese Edad"><br><br>
+
+        <label for="materia">Materia Preferida</label>
+        <input type="checkbox" id="materia" name="materia" placeholder="Ingrese materia">html
+        <input type="checkbox" id="materia" name="materia" placeholder="Ingrese materia">css
+        <input type="checkbox" id="materia" name="materia" placeholder="Ingrese materia">javascript
+        <input type="checkbox" id="materia" name="materia" placeholder="Ingrese materia">python <br><br>
+
+        <label>Le agrada la PROGRAMACION?</label><br>
+        <input type="radio">SI
+        <input type="radio">NO <br>
+
+        <button type="reset">Limpiar Formulario</button><br><br>
+        <button type="submit">Enviar Formulario</button>
+
+    </form>
+    <br>
+    <br>
+    <ol>
+        <li value="32">cosa</li>
+        <li>cosa</li>
+        <li>cosa</li>
+        <li>cosa</li>
+        <li>
+            <ol style="list-style-type: upper-roman" ;>
+                <li>cosas</li>
+                <li>cosas</li>
+                <li>cosas</li>
+                <li>cosas</li>
+            </ol>
+        </li>
+    </ol><br>
+    <br>
+
+    <table style="width: 400px; height: 300px;">
+        <thead>
+            <tr>
+                <th>orden</th>
+                <th>designacion</th>
+                <th>precio</th>
+                <th>necesidad</th>
+                <th>instalacion</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>fuente</td>
+                <td>$9000</td>
+                <td>imprescindible</td>
+                <td>$4000</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>placa base</td>
+                <td>$59000</td>
+                <td>imprescindible</td>
+                <td>$8000</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>memoria ram</td>
+                <td>$9000</td>
+                <td>imprescindible</td>
+                <td>$4000</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>cpu</td>
+                <td>$78000</td>
+                <td>imprescindible</td>
+                <td>$10000</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>total $150000</td>
+                <td></td>
+                <td>total $26000</td>
+            </tr>
+        </tfoot>
+    </table><br>
+
+    <footer>
+        <a target="_blank" href="https://www.facebook.com/search/top?q=roman%20informatica">Seguime en mis Redes</a>/<a
+            href="#inicio">Ir al Inicio</a>/<a target="_blank" href="contacto.html">Ir a Contacto</a>/<a
+            href="mailto:ruibalroman@hotmail.com">Enviame un mail:</a>
+    </footer>
+</body>
+
+</html>
