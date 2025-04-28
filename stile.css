@@ -2,7 +2,7 @@
     color: tomato;
 }
 
-p.especial{
+p.especial {
     color: mediumseagreen;
 }
 
@@ -10,15 +10,16 @@ p.texto {
     color: slateblue;
 }
 
-div p{
+div p {
     color: aquamarine;
 }
 
-div h2, div h3{
+div h2,
+div h3 {
     color: brown;
 }
 
-*{
+* {
     font-size: 24px;
     color: black;
 }
@@ -27,7 +28,7 @@ div h2, div h3{
 esto es un comentario en css
 */
 
-.color{
+.color {
     /* border: 5px red inset; */
     border-style: solid;
     border-color: blue;
@@ -35,10 +36,10 @@ esto es un comentario en css
     border-width: 1em;
 }
 
-#fondo{
+#fondo {
     background-color: red;
-   background-image: url("/assets/mundo.jpg");
-    background-size:100px 100px ;
+    background-image: url("/assets/mundo.jpg");
+    background-size: 100px 100px;
     height: 300px;
     background-repeat: repeat-y;
     background-position: center top;
