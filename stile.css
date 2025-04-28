@@ -19,10 +19,6 @@ div h3 {
     color: brown;
 }
 
-* {
-    font-size: 24px;
-    color: black;
-}
 
 /* 
 esto es un comentario en css
@@ -38,9 +34,59 @@ esto es un comentario en css
 
 #fondo {
     background-color: red;
-    background-image: url("/assets/mundo.jpg");
+    background-image: url("/assets/html.png");
     background-size: 100px 100px;
-    height: 300px;
+    height: 200px;
     background-repeat: repeat-y;
     background-position: center top;
 }
+
+.margen{
+    background-color: chocolate;
+    margin: 20px 25px 30px 35px;
+    padding: 10px 15px 20px 25px;
+    border: 2px solid black;
+    height: 100px;
+    width: 50px;
+    overflow: hidden;
+    outline: 2px solid red;
+}
+
+.text{
+    font-family:Verdana, Geneva, Tahoma, sans-serif; 
+    text-align: center;
+    text-decoration: underline;
+    text-shadow: 2px 2px 3px red;
+
+}
+
+body {
+    font-family: "Electrolize", sans-serif;
+}
+
+a:link{
+    color: blueviolet;
+    background-color: blueviolet;
+}
+
+a:visited{
+    color: darkcyan;
+}
+
+
+a:hover{
+    color: aqua;
+}
+
+a:active{
+    color: red;
+}
+
+
+
+
+
+
+
+
+
