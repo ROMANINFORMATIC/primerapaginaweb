@@ -1,0 +1,45 @@
+#titulo {
+    color: tomato;
+}
+
+p.especial{
+    color: mediumseagreen;
+}
+
+p.texto {
+    color: slateblue;
+}
+
+div p{
+    color: aquamarine;
+}
+
+div h2, div h3{
+    color: brown;
+}
+
+*{
+    font-size: 24px;
+    color: black;
+}
+
+/* 
+esto es un comentario en css
+*/
+
+.color{
+    /* border: 5px red inset; */
+    border-style: solid;
+    border-color: blue;
+    border-radius: 5px;
+    border-width: 1em;
+}
+
+#fondo{
+    background-color: red;
+   background-image: url("/assets/mundo.jpg");
+    background-size:100px 100px ;
+    height: 300px;
+    background-repeat: repeat-y;
+    background-position: center top;
+}
